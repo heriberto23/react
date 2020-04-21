@@ -100,6 +100,7 @@ class CommentForm extends React.Component {
         }
         this.props.onCommentSubmit({ Author: author, Text: text });
         this.setState({ author: '', text: '' });
+
     }
     render() {
         return (

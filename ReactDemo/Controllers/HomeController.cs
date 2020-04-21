@@ -15,7 +15,7 @@ namespace ReactDemo.Controllers
             _comments = new List<CommentModel> {
                 new CommentModel{
                     Id = 1,
-                    Author = "Daniel Lo Nigro",
+                    Author = "Heriberto Villanueva",
                     Text = "Hello ReactJS.NET World!"
                 },
                 new CommentModel{
